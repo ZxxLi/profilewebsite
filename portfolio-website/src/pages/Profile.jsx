@@ -9,7 +9,7 @@ function Profile(){
             <div className = "Main-Descriptor">
                 <h1>Zhaoxing Portolio Website</h1>
                 <h2>Welcome!</h2>
-                <P>This website contains information about work done and projects that I have taken part of.</P>
+                <p>This website contains information about work done and projects that I have taken part of.</p>
                 <h3>Experience</h3>
             </div>
             <div className = "Experience">
