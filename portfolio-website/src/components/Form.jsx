@@ -8,8 +8,8 @@ export const Form = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm('servicekey', 'templatekey', form.current, {
+        publicKey: 'publickey',
       })
       .then(
         () => {
