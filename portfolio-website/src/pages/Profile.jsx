@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Profile(){
 
     function ProjectButtonClicked(){
@@ -7,7 +9,7 @@ function Profile(){
     return (
         <div className = "Profile">
             <div className = "Main-Descriptor">
-                <h1>Zhaoxing Portolio Website</h1>
+                <h1>Zhaoxing Portfolio Website</h1>
                 <h2>Welcome!</h2>
                 <p>This website contains information about work done and projects that I have taken part of.</p>
                 <h3>Experience</h3>
@@ -15,9 +17,9 @@ function Profile(){
             <div className = "Experience">
                 <p>Time line logic here</p>
             </div>
-            <div className = "Furhter">
+            <div className = "Further">
                 <p>Want to find out more about the projects? Click the button below</p>
-                <button className = "button" onClick = {ProjectButtonClicked}>Projects</button>
+                <Link to = "/Projects" className = "button-link">Projects</Link>
             </div>
             
         </div>

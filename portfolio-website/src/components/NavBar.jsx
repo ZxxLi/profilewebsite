@@ -5,12 +5,10 @@ function NavBar(){
         <nav className ="navbar">
             <div className = "logo">
                 <Link to = "/">Zhaoxing Projects</Link>
-                <p>Zhaoxing Projects</p>
             </div>
             <div className = "links">
-                <p>Profile</p>
-                <p>Projects</p>
-                <p>Contact</p>
+                <Link to = "/Projects">Projects</Link>
+                <Link to = "/Contact">Contact</Link>
             </div>
         </nav>
     )
