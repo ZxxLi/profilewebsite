@@ -1,0 +1,7 @@
+Chromashift
+
+SheffJam 11 - 42 hours to create a game. Won the gamejam. Theme was One thing, team chose to create a platform, puzzle adventure game. Player plays as a colourless blob which can take on one colour at a time. Different colours reveal different paths where the player must figure out which colours to change to lead to the flag to get to the next level
+
+Used: C# and Unity
+
+Pictures + Video
